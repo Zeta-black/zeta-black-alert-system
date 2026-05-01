@@ -2,13 +2,12 @@
 
 ## 🧠 Overview
 Sentinel-Vision Pro is an AI-based system that monitors CCTV footage quality in real-time and detects issues like blur, low lighting, and noise.  
-It ensures that surveillance systems remain reliable by triggering instant alerts when camera quality drops.
+It ensures reliable surveillance by triggering instant alerts via Email and Telegram when camera quality drops.
 
 ---
 
 ## 🏆 Achievement
-🥇 1st Place Winner – Think AI Hackathon  
-👥 Team: Abhidaman  
+🥇 1st Place – Think AI Hackathon   
 🏫 M.S. Ramaiah Institute of Technology  
 
 ---
@@ -29,18 +28,63 @@ It ensures that surveillance systems remain reliable by triggering instant alert
 - OpenCV  
 - NumPy  
 - SMTP (Email Alerts)  
-- Telegram Bot API
+- Telegram Bot API  
+
+---
+
+## ⚙️ Algorithm / Working
+- Convert frame to grayscale  
+- Compute Laplacian variance → detect blur  
+- Calculate brightness → detect low light  
+- Apply threshold conditions  
+- Generate AI Trust Score  
+- Trigger alerts via Email & Telegram if quality drops  
+
+---
+
+## 📦 Requirements
+- opencv-python
+- numpy
+- imageio
+
+  
+---
+
+## 📂 Project Structure
+zeta-black-alert-system/
+│
+├── main.py
+├── requirements.txt
+├── dataset/
+├── outputs/
+└── README.md
+
 
 ---
 
 ## ▶️ How to Run
-
-```bash
 pip install -r requirements.txt
 python main.py
 
 
+---
+
+## 📸 Results
+
+![Result 1](outputs/result1.jpg)  
+![Result 2](outputs/result2.jpg)  
+![Result 3](outputs/result3.jpg)  
+![Result 4](outputs/result4.jpg)  
+![Result 5](outputs/result5.jpg)  
+
 
 ---
 
-## 📂 Project Structure
+## ⚠️ Note
+Do not upload personal email credentials or API keys.  
+Configure them locally before running the project.
+
+---
+
+## 👤 Author
+ZetaBlack
