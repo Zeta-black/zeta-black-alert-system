@@ -1,4 +1,4 @@
-# 🚨 ZetaBlack Surveillance AI
+# 🚨 Sentinel-Vision-Pro
 
 ## 🧠 Overview
 An AI-based system that audits CCTV footage quality in real-time and detects issues like:
