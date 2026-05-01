@@ -71,11 +71,12 @@ python main.py
 
 ## 📸 Results
 
-![Result 1](outputs/result1.jpg)  
-![Result 2](outputs/result2.jpg)  
-![Result 3](outputs/result3.jpg)  
-![Result 4](outputs/result4.jpg)  
-![Result 5](outputs/result5.jpg)  
+
+![Result 1](result1.jpg)  
+![Result 2](result2.jpg)  
+![Result 3](result3.jpg)  
+![Result 4](result4.jpg)  
+![Result 5](result5.jpg)   
 
 
 ---
